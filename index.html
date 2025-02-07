@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- font-awsome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <div
+      class="container w-full h-[100vh] md:px-16 md:py-4 bg-slate-600 flex flex-wrap justify-center gap-5"
+    >
+    <!--! card-1 -->
+      <div
+        id="card-1"
+        class="card bg-black w-full md:w-[30%] h-[520px] flex flex-col pt-2 mt-[40px] rounded-xl"
+      >
+        <!-- image div-->
+        <div
+          class="image mx-auto bg-white w-[60%] h-[40%]"
+          style="
+            clip-path: polygon(
+              25% 0%,
+              75% 0%,
+              100% 50%,
+              75% 100%,
+              25% 100%,
+              0% 50%
+            );
+            transform: rotate(90deg);
+          "
+        >
+          <img
+            src="./asset/cartoon-drawing-living-room-with-couch-coffee-table_1024980-125913.avif"
+            alt=""
+            class="block h-full w-full rotate-[270deg]"
+          />
+        </div>
+
+        <div class="w-[60%] ml-6 py-4 px-4 flex justify-center">
+          <h2 class="text-xl text-white font-bold">
+            The only productivity app you needed
+          </h2>
+        </div>
+
+        <div class="buttons flex flex-wrap justify-center gap-2 h-[25%]">
+          <button class="px-4 rounded-3xl w-[42%] h-[30%] bg-blue-500">
+            Apple ID
+          </button>
+          <button class="px-4 rounded-3xl w-[42%] h-[30%] bg-blue-500">
+            Google
+          </button>
+          <button class="px-4 rounded-3xl w-[85%] h-[30%] bg-blue-500">
+            Sign in with Email
+          </button>
+        </div>
+
+        <div class="text-s text-white flex justify-center">
+          <p>Your best app for production</p>
+        </div>
+      </div>
+<!-- ! card-2 -->
+      <div
+        id="card-2"
+        class="card bg-black p-4 w-full md:w-[30%] h-[520px] flex flex-col gap-5 mt-[20px] rounded-xl"
+      >
+        <div class="h-[45%] pt-3 flex flex-col items-center justify-between">
+          <img
+            src="./asset/pm-modi-smiling-064650298-1x1.webp"
+            alt=""
+            class="w-[35%] h-[45%] objet-cover rounded-full"
+          />
+
+          <div class="flex flex-col items-center gap-2">
+            <h2 class="inline-block text-3xl text-white font-bold">PM Modi</h2>
+            <p class="inline-block text-xs text-white font-semibold">
+              mitroooo@gmail.com
+            </p>
+            <button
+              class="bg-blue-400 px-4 py-2 rounded-3xl text-white text-s font-semibold"
+            >
+              Edit Profile
+            </button>
+          </div>
+        </div>
+
+        <div class="h-[55%] flex flex-col justify-between">
+          <div class="h-[30%] flex flex-col justify-center">
+            <p class="text-xs text-gray-300 ml-1">Notifications</p>
+            <div
+              class="h-[70%] px-2 bg-gray-600 rounded-xl flex justify-between items-center"
+            >
+              <p class="inline-block text-white">Turn on notification</p>
+              
+              <div class="w-[2rem] h-[1.2rem] bg-slate-400 rounded-xl flex items-center">
+                <div class="w-[1rem] h-[1rem] bg-white rounded-[50%]"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="h-[30%] flex flex-col justify-center">
+            <p class="text-xs text-gray-300 ml-1">Invite Link</p>
+            <div
+              class="h-[70%] px-2 bg-gray-600 rounded-xl flex justify-between items-center"
+            >
+              <p class="inline-block text-white">Invite people</p>
+              <button
+                class="bg-blue-500 px-4 py-2 text-white font-bold rounded-3xl"
+              >
+                Invite
+              </button>
+            </div>
+          </div>
+
+          <div class="h-[30%] flex flex-col items-center justify-between px-3">
+            <a href="" class="text-xs text-gray-300">Log out</a>
+
+            <div class="w-full flex justify-between items-center">
+              <i class="fa-solid fa-house text-white"></i>
+              <div
+                class="w-[2rem] h-[2rem] rounded-[50%] bg-blue-500 flex justify-center items-center border-1"
+              >
+                <p class="mt-[-2px] text-white font-bold">+</p>
+              </div>
+              <i class="fa-regular fa-trash-can text-white"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--! card-3 -->
+      <div class="card p-2 bg-black w-full md:w-[30%] h-[540px] flex flex-col justify-between rounded-xl">
+        <!-- up div  -->
+        <div class="h-[75%] w-full flex flex-col justify-evenly items-center">
+          <!-- 1st inner -->
+          <div class="h-[10%] w-full flex justify-between">
+            <div
+              class="w-[2rem] h-[2rem] bg-blue-500 flex justify-center items-center rounded-md"
+            >
+              <p class="text-white font-bold mt-[-2px]"><</p>
+            </div>
+
+            <p class="text-white font-semibold">Daily Progress</p>
+
+            <div class="flex gap-2 items-center">
+              <i class="fa-solid fa-magnifying-glass text-white"></i>
+              <img
+                src="./asset/pm-modi-smiling-064650298-1x1.webp"
+                alt=""
+                class="w-[2.5rem] h-[2.5rem] inline-block rounded-[50%]"
+              />
+            </div>
+          </div>
+          <!-- 2nd inner -->
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Search"
+            class="h-[10%] w-full p-2 bg-gray-700 text-white rounded-lg placeholder:text-white"
+          />
+
+          <!-- 3rd inner -->
+           <div class="w-full h-[10%] flex gap-8 items-center">
+              <button class="px-3 py-1 bg-blue-500 rounded-2xl text-white">All</button>
+              <p class="text-gray-600">features</p>
+           </div>
+
+           <!-- 4th inner -->
+            <div class="w-full flex justify-between items-center p-2 border-1 border-green-600 rounded-lg">
+                <div class="w-[2rem] h-[2rem] bg-blue-500 rounded-lg flex justify-center items-center">
+                    <i class="fa-brands fa-readme text-white"></i>
+                </div>
+                <p class="text-white">Read "The lean startup"</p>
+                <p class="text-white font-bold">></p>
+            </div>
+           <!-- 5th inner -->
+            <div class="w-full flex justify-between items-center p-2 border-1 border-green-600 rounded-lg">
+                <div class="w-[2rem] h-[2rem] bg-green-400 rounded-lg flex justify-center items-center">
+                    <i class="fa-solid fa-tree text-white"></i>
+                </div>
+                <p class="text-white">Fix landing page</p>
+                <p class="text-white font-bold">></p>
+            </div>
+           <!-- 5th inner -->
+            <div class="w-full flex justify-between items-center p-2 border-1 border-green-600 rounded-lg">
+                <div class="w-[2rem] h-[2rem] bg-purple-500 rounded-lg flex justify-center items-center">
+                    <i class="fa-solid fa-check text-white"></i>
+                </div>
+                <p class="text-white">Share prototype with team</p>
+                <p class="text-white font-bold">></p>
+            </div>
+            <!-- 6th inner -->
+            <div class="w-full flex justify-between items-center p-2 rounded-lg bg-slate-700">
+                <div class="w-[2rem] h-[2rem] bg-yellow-400 rounded-lg flex justify-center items-center">
+                    <i class="fa-brands fa-rocketchat text-white"></i>
+                </div>
+                <p class="text-white">reply to Richard</p>
+                <p class="text-white font-bold">></p>
+            </div>
+            <!-- 7th inner -->
+            <div class="w-full flex justify-between items-center p-2 rounded-lg bg-slate-700">
+                <div class="w-[2rem] h-[2rem] bg-purple-500 rounded-lg flex justify-center items-center">
+                    <i class="fa-solid fa-check text-white"></i>
+                </div>
+                <p class="text-white">Finaized with Desk</p>
+                <p class="text-white font-bold">></p>
+            </div>
+
+        </div>
+        <!-- down div -->
+        <div class="h-[15%] flex items-end ">
+            <div class="w-full flex justify-between items-center">
+                <i class="fa-solid fa-house text-white"></i>
+                <div
+                  class="w-[2rem] h-[2rem] rounded-[50%] bg-blue-500 flex justify-center items-center border-1"
+                >
+                  <p class="mt-[-2px] text-white font-bold">+</p>
+                </div>
+                <i class="fa-regular fa-trash-can text-white"></i>
+              </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- npx @tailwindcss/cli -i ./input.css -o ./output.css --watch -->
